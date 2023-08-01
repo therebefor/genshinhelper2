@@ -26,7 +26,7 @@ def create_mo_files():
         data_files.append((str(dir), mo_files))
     return data_files
 
-
+'''
 __version__ = None
 with open('genshinhelper/__version__.py', encoding='utf-8') as f:
     exec(f.read())
@@ -34,10 +34,11 @@ with open('genshinhelper/__version__.py', encoding='utf-8') as f:
 if not __version__:
     print('Could not find __version__ from genshinhelper/__version__.py')
     exit(-1)
+'''
 
 setup(
     name='genshinhelper',
-    version=__version__,
+    version='2.1.3',
     packages=find_packages(),
     url='https://github.com/y1ndan/genshinhelper2',
     license='GPLv3',
