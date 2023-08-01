@@ -32,4 +32,4 @@ jobs:
       env:
         COOKIES: ${{ secrets.COOKIES }} 
       run: |
-        python genshinhelper2/setup.py
+        python genshinhelper2/setup.py install
