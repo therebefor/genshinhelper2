@@ -45,7 +45,7 @@ setup(
     author='y1ndan',
     author_email='i@yindan.me',
     description='A Python library for miHoYo bbs and HoYoLAB Community.',
-    long_description=long_description,
+    # long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='原神 签到 mihoyo hoyolab genshin genshin-impact check-in weibo',
     include_package_data=True,
